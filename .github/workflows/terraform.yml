@@ -43,24 +43,18 @@ jobs:
           #### Terraform Initialization ⚙️\`${{ steps.init.outcome }}\`
           #### Terraform Plan 📖\`${{ steps.plan.outcome }}\`
           #### Terraform Validation 🤖\`${{ steps.validate.outcome }}\`
-
           <details><summary>Show Plan</summary>
-
           \`\`\`\n
           ${process.env.PLAN}
           \`\`\`
-
           </details>
-
           *Pusher: @${{ github.actor }}, Action: \`${{ github.event_name }}\`*`;
-
           github.issues.createComment({
             issue_number: context.issue.number,
             owner: context.repo.owner,
             repo: context.repo.repo,
             body: output
           })
-    #
     - name: Terraform Apply
       if: github.ref == 'refs/heads/main' && github.event_name == 'push'
       # variables configured on terraform cloud lo de vars.tfvars
