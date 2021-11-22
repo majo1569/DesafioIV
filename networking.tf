@@ -1,5 +1,5 @@
 resource "aws_vpc" "main1" {
-  cidr_block           = 172.16.11.0/28
+  cidr_block           = "172.16.11.0/28"
   enable_dns_hostnames = true
   tags = {
     "Name" = "Main 1 VPC"
