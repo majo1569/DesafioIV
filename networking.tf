@@ -1,5 +1,5 @@
 resource "aws_vpc" "main1" {
-  cidr_block           = var.vpc_cidr
+  cidr_block           = 172.16.11.0/28
   enable_dns_hostnames = true
   tags = {
     "Name" = "Main 1 VPC"
@@ -14,7 +14,7 @@ resource "aws_subnet" "subnet1" {
   availability_zone = var.subnet1_zone_1a
 
   tags = {
-    "Name" = "Subnet 1 | Main 1"
+    "Name" = "grupo-11"
   }
 }
 resource "aws_internet_gateway" "gw" {
