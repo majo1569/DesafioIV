@@ -1,5 +1,9 @@
-# DesafioIV
-Desafio IV : Proof of Concept | Redes de Informacion 
+# Desafio IV : Proof of Concept | Redes de Informacion 
+Desarrollo de una PoC, utilizando workflow ya hecho que utiliza una API KEY, una organización y un workspace de Terraform Cloud
+
+## Amazon Virtual Private Cloud (VPC)
+### Definir y lanzar recursos de AWS en una red virtual aislada lógicamente
+ 
 
 ![Diagrama de la Infraestructura](/img/RedesG11.png)
-https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=RedesG11#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oZQgWsDeu4h_uACvXCWfbjwxtLvbRy1h%26export%3Ddownload
+
