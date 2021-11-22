@@ -15,7 +15,7 @@ jobs:
       uses: hashicorp/setup-terraform@v1
       with:
         # terraform_version: 0.13.0
-        cli_config_credentials_token: https://pwpush.com/en/p/qiwb3l5ognidtcl3
+        cli_config_credentials_token: lx7Cn6NdjxseIA.atlasv1.TNpRXS0IfwLryxRIzeDAguXB2Gy53D4VidhAmkNWsmTUe4flZIrW2wA1CXLe9zKafhU
     - name: Inject Secrets
       env:
         ORGANIZATION: CN-TEST
