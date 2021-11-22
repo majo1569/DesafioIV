@@ -8,7 +8,7 @@ resource "aws_vpc" "main1" {
 
 resource "aws_subnet" "subnet1" {
   vpc_id                  = aws_vpc.main1.id
-  cidr_block              = var.subnet1_cidr
+  cidr_block              = "172.16.11.0/28" //var.subnet1_cidr
   map_public_ip_on_launch = true
 
   availability_zone = var.subnet1_zone_1a
