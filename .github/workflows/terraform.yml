@@ -18,8 +18,8 @@ jobs:
         cli_config_credentials_token: ${{ secrets.TF_API_TOKEN }}
     - name: Inject Secrets
       env:
-        ORGANIZATION: CN-TEST
-        WORKSPACE: utn-gh-actions-demo
+        ORGANIZATION: ${{ secrets.ORGANIZATION }}
+        WORKSPACE: ${{ secrets.WORKSPACE }}
       run: |
           sed -i -e 's/_organization_/'"$ORGANIZATION"'/g' provider.tf &&
           sed -i -e 's/_workspace_/'"$WORKSPACE"'/g' provider.tf
