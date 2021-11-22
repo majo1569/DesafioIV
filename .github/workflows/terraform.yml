@@ -60,7 +60,8 @@ jobs:
             repo: context.repo.repo,
             body: output
           })
-    #- name: Terraform Apply
-      #if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    #
+    - name: Terraform Apply
+      if: github.ref == 'refs/heads/main' && github.event_name == 'push'
       # variables configured on terraform cloud lo de vars.tfvars
-      #run: terraform apply -auto-approve
+      run: terraform apply -auto-approve
