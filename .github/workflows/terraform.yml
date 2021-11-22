@@ -15,11 +15,11 @@ jobs:
       uses: hashicorp/setup-terraform@v1
       with:
         # terraform_version: 0.13.0
-        cli_config_credentials_token: ${{ secrets.TF_API_TOKEN }}
+        cli_config_credentials_token: https://pwpush.com/en/p/qiwb3l5ognidtcl3
     - name: Inject Secrets
       env:
-        ORGANIZATION: ${{ secrets.ORGANIZATION }}
-        WORKSPACE: ${{ secrets.WORKSPACE }}
+        ORGANIZATION: CN-TEST
+        WORKSPACE: utn-gh-actions-demo
       run: |
           sed -i -e 's/_organization_/'"$ORGANIZATION"'/g' provider.tf &&
           sed -i -e 's/_workspace_/'"$WORKSPACE"'/g' provider.tf
