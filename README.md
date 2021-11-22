@@ -5,5 +5,5 @@ Desarrollo de una PoC, utilizando workflow ya hecho que utiliza una API KEY, una
 ### Definir y lanzar recursos de AWS en una red virtual aislada lógicamente
  
 
-![Diagrama de la Infraestructura](./RedesG11.png)
+![Diagrama de la Infraestructura](./RedesG11.drawio.png)
 
