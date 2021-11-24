@@ -16,3 +16,27 @@ La VPC desarrollada en el laboratorio solo cuenta con subnet publica, instancia 
 ### Terraform
  ![Esquema resumen de tecnologias y proceso seguido en el laboratorio](./EsquemaGral-LabAWS.drawio.png)
  
+ La estructura del repositorio de codigo para esta infraestructura contiene los siguientes files con extension .tf y un .yml para desplegar la instancia usando terraform y github actions:
+ 
+### -  .github
+      /workflows
+        /terraform.yml
+   
+###  - instance.tf
+   En este file indicamos la private ip que le dio el grupo a la instancia y pusimos sus tags
+
+### - networking.tf
+    Este file tambien fue modificado por nosotros, indicando el bloque CDIR de la vpc del grupo. Ademas podemos ver las configuraciones de la tabla de enrutamiento donde vemos que tenemos tambien un internet gateway
+
+### - output.tf
+
+### - provider.tf 
+
+### - user-data.sh
+
+### - variables.tf 
+
+### - security_groups.tf
+   En este file se configuro un grupo de seguridad, con dos reglas ingress para HTTP y SSH. A continuacion lo mostramos en este esquema y tabla:
+ 
+![Esquema Security Groups](./securityGroupAWS.drawio.png)
