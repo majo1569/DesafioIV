@@ -3,7 +3,7 @@ Desarrollo de una PoC, utilizando workflow ya hecho que utiliza una API KEY, una
 #### Se encuentra desactivado github actions p
 ## Amazon Virtual Private Cloud (VPC)
 ### Definir y lanzar recursos de AWS en una red virtual aislada lógicamente
- 
+ ![Esquema resumen de tecnologias y proceso seguido en el laboratorio](./EsquemaGral-LabAWS.drawio.png)
 
 ![Diagrama de la Infraestructura](./RedesG11.drawio.png)
 
