@@ -44,7 +44,6 @@ Terraform Cloud nos permite eliminar algunos pasos y documentacion para usar Ter
  
 ![Esquema Security Groups](./securityGroupAWS.drawio.png)
 
-* some title
 
   <table>
     <thead>
