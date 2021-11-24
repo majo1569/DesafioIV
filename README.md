@@ -9,7 +9,7 @@ La Virtual Private Cloud desarrollada en el laboratorio solo cuenta con subnet p
 ![Diagrama de la Infraestructura](./InfraestructuraAWS.png)
 )
 
-Una mejora que se podria hacer es aplicar un "Nat Gateway", ese es un servicio de AWS manejado con NAT que como mejora nos da: mejor disponibilidad, mayor ancho de banda y requiere menos esfuerzo administrativo 
+Una mejora que se podria hacer es aplicar un "Nat Gateway", ese es un servicio de AWS manejado con NAT que como mejora nos da: mejor disponibilidad, mayor ancho de banda y requiere menos esfuerzo administrativo. Podemos usar esto para que instancias de una subnet privada se conencten a servicios por fuera de nuestra VPC. 
 ## Infraestructure as Code
 ### Terraform Cloud
 Terraform Cloud nos permite eliminar algunos pasos y documentacion para usar Terraform en ambientes de produccion, desplegar instancias. 
