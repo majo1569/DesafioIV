@@ -9,6 +9,7 @@ Incialmente al conocer sobre los recursos de AWS y las Virtual Private Cloud pla
 ![Diagrama de la Infraestructura](./RedesG11.drawio.png)
 
 La VPC desarrollada en el laboratorio solo cuenta con subnet publica, instancia de AWS e internet gateway. El esquema utilizado lo representamos a continuacion: 
+
 ![Diagrama de la Infraestructura](./infraestructuraAWS.png)
 
 ## Infraestructure as Code
