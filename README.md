@@ -60,7 +60,7 @@ Terraform Cloud nos permite eliminar algunos pasos y documentacion para usar Ter
             <td><code> 0.0.0.0/0 </code></td>
         </tr>
         <tr>
-            <td>" SSH </td>
+            <td> SSH </td>
             <td> TCP </td>
             <td><code>22</code></td>
             <td><code>0.0.0.0/0</code></td>
