@@ -7,7 +7,7 @@ Desarrollo de una PoC, utilizando workflow ya hecho que utiliza una API KEY, una
 La Virtual Private Cloud desarrollada en el laboratorio solo cuenta con subnet publica, instancia de AWS e internet gateway. El esquema utilizado lo representamos a continuacion: 
 
 ![Diagrama de la Infraestructura](./InfraestructuraAWS.png)
-)
+
 
 Una mejora que se podria hacer es aplicar un "Nat Gateway", ese es un servicio de AWS manejado con NAT que como mejora nos da: mejor disponibilidad, mayor ancho de banda y requiere menos esfuerzo administrativo. Podemos usar esto para que instancias de una subnet privada se conencten a servicios por fuera de nuestra VPC. 
 ## Infraestructure as Code
