@@ -23,10 +23,12 @@ La VPC desarrollada en el laboratorio solo cuenta con subnet publica, instancia 
         /terraform.yml
    
 ###  - instance.tf
+   
    En este file indicamos la private ip que le dio el grupo a la instancia y pusimos sus tags
 
 ### - networking.tf
-    Este file tambien fue modificado por nosotros, indicando el bloque CDIR de la vpc del grupo. Ademas podemos ver las configuraciones de la tabla de enrutamiento donde vemos que tenemos tambien un internet gateway
+    
+   Este file tambien fue modificado por nosotros, indicando el bloque CDIR de la vpc del grupo. Ademas podemos ver las configuraciones de la tabla de enrutamiento donde vemos que tenemos tambien un internet gateway
 
 ### - output.tf
 
