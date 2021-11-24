@@ -6,7 +6,8 @@ Desarrollo de una PoC, utilizando workflow ya hecho que utiliza una API KEY, una
 
 La Virtual Private Cloud desarrollada en el laboratorio solo cuenta con subnet publica, instancia de AWS e internet gateway. El esquema utilizado lo representamos a continuacion: 
 
-![Diagrama de la Infraestructura](./infraestructuraAWS.png)
+![Diagrama de la Infraestructura](./InfraestructuraAWS.png)
+)
 
 ## Infraestructure as Code
 ### Terraform Cloud
